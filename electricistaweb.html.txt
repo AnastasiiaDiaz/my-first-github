@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa Eléctrica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #00509e;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #003f7d;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .services, .contact {
+            margin-top: 2rem;
+        }
+        footer {
+            background-color: #003f7d;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Empresa Eléctrica</h1>
+        <p>Tu solución confiable en servicios eléctricos</p>
+    </header>
+    <nav>
+        <a href="#about">Sobre Nosotros</a>
+        <a href="#services">Servicios</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>Sobre Nosotros</h2>
+            <p>En Empresa Eléctrica, contamos con más de 20 años de experiencia ofreciendo servicios de instalación, mantenimiento y reparación eléctrica. Nuestro equipo de expertos está comprometido con la seguridad y la satisfacción de nuestros clientes.</p>
+        </section>
+        <section id="services" class="services">
+            <h2>Servicios</h2>
+            <ul>
+                <li>Instalaciones eléctricas residenciales y comerciales</li>
+                <li>Reparaciones y mantenimiento preventivo</li>
+                <li>Asesoramiento en eficiencia energética</li>
+                <li>Soluciones personalizadas para proyectos especiales</li>
+            </ul>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta o necesitas un presupuesto? Contáctanos:</p>
+            <p>Email: contacto@empresa-electrica.com</p>
+            <p>Teléfono: +34 123 456 789</p>
+            <p>Dirección: Calle Luz 123, Ciudad Eléctrica</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Empresa Eléctrica. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
